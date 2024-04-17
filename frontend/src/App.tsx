@@ -6,7 +6,8 @@ import BlogView from "./pages/BlogView"
 
 function App() {
   return (
-    <BrowserRouter>
+    <div className="h-screen w-screen">
+<BrowserRouter>
       <Routes>
         <Route path="/signup" element={<Signup/>}/>
         <Route path="/signin" element={<Signin/>}/>
@@ -15,6 +16,8 @@ function App() {
 
       </Routes>
     </BrowserRouter>
+    </div>
+    
   )
 }
 
