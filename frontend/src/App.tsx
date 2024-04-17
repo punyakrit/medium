@@ -9,7 +9,8 @@ function App() {
     <div className="h-screen w-screen">
 <BrowserRouter>
       <Routes>
-        <Route path="/signup" element={<Signup/>}/>
+        
+        <Route  path="/signup" element={<Signup/>}/>
         <Route path="/signin" element={<Signin/>}/>
         <Route path="/blogs" element={<BlogView/>}/>
         <Route path="/blogs/:id" element={<Blog/>}/>

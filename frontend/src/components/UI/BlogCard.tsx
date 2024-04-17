@@ -11,7 +11,7 @@ interface BlogCardProps {
 function BlogCard({ authName, title, content, publishedDate,id }: BlogCardProps) {
   console.log(id)
   return (
-    <Link to={`/blogs/${id}}`}>
+    <Link to={`/blogs/${id}`}>
     <div className="flex flex-col border-b-2 pb-4 mt-4 w-min-md cursor-pointer">
       <div className="flex items-center text-sm">
         <Avatar name={authName} />
